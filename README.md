@@ -1,0 +1,2 @@
+# js-assignments
+Studying javascript
