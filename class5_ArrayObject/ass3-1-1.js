@@ -1,5 +1,5 @@
 // 주어진 객체에서 숫자타입으로만 구성된 요소 뽑아 배열 만들기
-// 실행결과:
+// 답:
 // ["width", "height", "hOffset", "vOffset", "size", "hOffset", "vOffset"]
 
 const obj = {
