@@ -36,6 +36,9 @@ const show = obj => {
     case 'todo':
       let todolist = todos.filter(el => el.status === 'todo');
       console.log(`총 ${todolist.length}건: ${todolist.map(el => el.name)}`);
+      break;
+    default:
+      console.log(`'all' 혹은 'todo'를 입력하세요`);
   }
 };
 
